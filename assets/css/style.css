@@ -1,0 +1,138 @@
+/* --------------- Global --------------- */
+header {
+  padding: 20px;
+}
+h5 {
+  margin-bottom: 0px;
+}
+h1,
+h5 {
+  text-align: center ;
+  margin-left: 0px ;
+}
+section {
+  padding: 20px 5px ;
+}
+button {
+  background: blue ;
+  color: #e6e4e3 ;
+}
+.subtitle {
+  background-color: blue;
+  color: #e6e4e3;
+}
+.card-header {
+  padding: 5px;
+  text-align: center;
+}
+.newCity {
+  background-color: #faac84;
+  color: #e6e4e3;
+}
+/* --------------- Search Cities --------------- */
+.searchedCitiesSection {
+  width: 30% ;
+}
+.searchedCitiesSection .card-body {
+  padding-left: 10px ;
+  padding-right: 5px ;
+  font-size: 0.7rem;
+}
+#cityInput {
+  font-size: 0.7rem;
+}
+input {
+  width: 100% ;
+  text-transform: capitalize;
+}
+.listItemSearchedCity {
+  width: 100%;
+  padding: 0.75rem;
+  text-transform: capitalize;
+}
+.form-inline .form-group {
+  margin-left: 0px ;
+  width: 50%;
+}
+.list-group {
+  width: 50%;
+}
+/* --------------- City Current --------------- */
+.currentWeather .col {
+  padding-left: 10px ;
+  padding-right: 5px ;
+  font-size: 0.7rem;
+  text-align: center;
+}
+.currentData .city {
+  text-transform: capitalize;
+}
+.currentData .icon {
+  max-width: 400px;
+  max-height: 150px;
+}
+.weather {
+  text-transform: capitalize;
+}
+#windy {
+  width: 100%;
+  height: 305px;
+  border-radius: 7px;
+}
+.leaflet-popup-content {
+  text-transform: capitalize;
+}
+/* --------------- City Forcast --------------- */
+.forecast {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.forecast .col {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 0.5rem;
+}
+.forecast .col1 {
+  padding: 0px;
+}
+.forecast .card-body {
+  padding: 10px;
+  text-align: center;
+}
+.forecast .temp,
+.forecast .humid,
+.forecast .wind,
+.forecast .uv,
+.forecast .flag {
+  display: none ;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+/* --------------- Media Queries --------------- */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .forecast .card-body {
+    padding: 15px;
+
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .forecast .card-body .col {
+    padding-left: 15px ;
+
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
